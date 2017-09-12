@@ -1,21 +1,11 @@
 # Issues
 
-**TODO: Add description**
+An application that lists the n newest issues from a GitHub project.
 
-## Installation
+# Run 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `issues` to your list of dependencies in `mix.exs`:
+./issues <user> <project> [ count | 4 ]
 
-```elixir
-def deps do
-  [
-    {:issues, "~> 0.1.0"}
-  ]
-end
-```
+#Documentation
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/issues](https://hexdocs.pm/issues).
-
+Open docs/index.html in your browser
