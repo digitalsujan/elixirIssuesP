@@ -20,7 +20,7 @@ defmodule CliTest do
 		issues = for issue <- result, do: Map.get(issue, "created_at")
 		assert issues == ~w{a b c}
 	end
-	
+
 	defp fake_created_at_list(values) do
 		for value <- values,
 		do: %{"created_at" => value, "other_data" => "xxx"}
