@@ -12,4 +12,4 @@ An application that lists the n newest issues from a GitHub project.
 
 ## Documentation
 
-Open docs/index.html in your browser
+Open doc/index.html in your browser
