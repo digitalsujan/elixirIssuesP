@@ -8,7 +8,7 @@ defmodule Issues.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
-      source_url: "https://github.com/pragdave/issues",
+      source_url: "https://github.com/digitalsujan/elixirIssuesP",
       deps: deps()
     ]
   end
